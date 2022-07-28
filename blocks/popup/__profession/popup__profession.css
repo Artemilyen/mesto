@@ -1,0 +1,22 @@
+.popup__profession {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: black;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-color: rgba(0, 0, 0, 0.2);
+  width: 358px;
+  margin: 30px auto 48px;
+}
+
+.popup__profession:focus{
+    outline: 0;
+    border-bottom: 3px solid skyblue;
+}
+
+@media screen and (max-width: 650px) {
+  .popup__profession{
+    width: 238px;
+  }
+}

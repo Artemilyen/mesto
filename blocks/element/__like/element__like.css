@@ -1,0 +1,16 @@
+.element__like{
+    margin-right: 30px;
+    max-width: 22px;
+    max-height: 19px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.element__like:hover{
+    opacity: .5;
+}
+
+.element__like:active{
+    background-image: url(../../../images/Like_active.png);
+    opacity: 1;
+}

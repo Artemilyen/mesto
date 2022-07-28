@@ -1,0 +1,5 @@
+.profile__title-box{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}

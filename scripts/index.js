@@ -9,13 +9,13 @@ let profileProfession = document.querySelector(".profile__profession");
 let popup = document.querySelector(".popup");
 
 function openPopup() {
-  popup.classList.remove("popup__hidden");
+  popup.classList.remove("popup_hidden");
 }
 
 editButton.addEventListener("click", openPopup);
 
 function closePopup() {
-  popup.classList.add("popup__hidden");
+  popup.classList.add("popup_hidden");
 }
 
 closeButton.addEventListener("click", closePopup);

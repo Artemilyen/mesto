@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./pages/index.css"/>
     <title>Mesto</title>
   </head>
   <body class="page">
@@ -14,7 +14,6 @@
         src="./images/header_logo.svg"
         alt="логотип Место"
       />
-      <div class="header__line"></div>
     </header>
     <main class="content">
       <section class="profile">
@@ -51,7 +50,7 @@
           />
           <div class="element__caption">
             <p class="element__title">Эльбрус</p>
-            <img class="element__like" alt="лайк" src="./images/like.svg" />
+            <button class="element__like" type="button"><img alt="лайк" src="./images/like.svg" /></button>
           </div>
         </div>
         <div class="element">
@@ -62,7 +61,7 @@
             />
             <div class="element__caption">
               <p class="element__title">Коста-Рика</p>
-              <img class="element__like" alt="лайк" src="./images/like.svg" />
+              <button class="element__like" type="button"><img alt="лайк" src="./images/like.svg" /></button>
             </div>
           </div>
           <div class="element">
@@ -73,7 +72,7 @@
             />
             <div class="element__caption">
               <p class="element__title">Домбай</p>
-              <img class="element__like" alt="лайк" src="./images/like.svg" />
+              <button class="element__like" type="button"><img alt="лайк" src="./images/like.svg" /></button>
             </div>
           </div>
           <div class="element">
@@ -83,8 +82,8 @@
               src="./images/karachaevsk_splashed.jpg"
             />
             <div class="element__caption">
-              <p class="element__title">Карачаевск</p>
-              <img class="element__like" alt="лайк" src="./images/like.svg" />
+              <p class="element__title">Карачаево-Черкессия</p>
+              <button class="element__like" type="button"><img alt="лайк" src="./images/like.svg" /></button>
             </div>
           </div>
           <div class="element">
@@ -95,7 +94,7 @@
             />
             <div class="element__caption">
               <p class="element__title">Нью-Йорк</p>
-              <img class="element__like" alt="лайк" src="./images/like.svg" />
+              <button class="element__like" type="button"><img alt="лайк" src="./images/like.svg" /></button>
             </div>
           </div>
           <div class="element">
@@ -106,7 +105,7 @@
             />
             <div class="element__caption">
               <p class="element__title">Вестон-пляж</p>
-              <img class="element__like" alt="лайк" src="./images/like.svg" />
+              <button class="element__like" type="button"><img alt="лайк" src="./images/like.svg" /></button>
             </div>
           </div>
       </section>
@@ -114,13 +113,13 @@
     <footer class="footer">
       <p class="footer__copyright">&#169;2022 Артём Бондаренко</p>
     </footer>
-    <div class="popup popup_hidden">
+    <div class="popup">
       <div class="popup__container">
-        <img class="popup__close-icon" alt="закрыть окно" src="./images/Close_Icon.svg">
-        <form class="popup__form">
-        <p class="popup__title">Редактировать профиль</p>
-        <input class="popup__name" type="text" placeholder="Имя">
-        <input class="popup__profession" type="text" placeholder="О себе">
+        <button class="popup__close-icon" type="button"><img alt="закрыть окно" src="./images/Close_Icon.svg"></button>
+        <form class="popup__form" name="popup">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <input class="popup__input popup__input_info_name" type="text" placeholder="Имя">
+        <input class="popup__input popup__input_info_about" type="text" placeholder="О себе">
         <button class="popup__button" type="submit">Сохранить</button>
         </form>
       </div>

@@ -1,6 +1,6 @@
 let editButton = document.querySelector(".profile__edit-button");
 // let addButton = document.querySelector(".profile__add-button");
-let closeButton = document.querySelector(".popup__close-icon");
+let closeButton = document.querySelector(".popup__close-button");
 let saveForm = document.querySelector(".popup__form");
 let inputName = document.querySelector(".popup__input_info_name");
 let inputProfession = document.querySelector(".popup__input_info_about");
@@ -34,9 +34,3 @@ editButton.addEventListener("click", openPopup);
 closeButton.addEventListener("click", closePopup);
 
 saveForm.addEventListener("submit", submitForm);
-
-// saveForm.addEventListener("submit", function(evt){
-//     evt.preventDefault();
-//     submitForm();
-//     console.log('попозже отправим');
-// });

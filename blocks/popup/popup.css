@@ -9,4 +9,7 @@
   display: none;
   justify-content: center;
   align-items: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }

@@ -20,7 +20,8 @@
         width: 20px;
         height: 20px;
         position: absolute;
-        top: -36px;
+        top: -18px;
         right: 0;
+        object-fit: contain;
     }
 }

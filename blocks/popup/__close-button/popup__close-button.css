@@ -2,8 +2,8 @@
     width: 32px;
     height: 32px;
     position: absolute;
-    top: -40px;
-    right: -40px;
+    top: -31px;
+    right: -25px;
     cursor: pointer;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@
         width: 20px;
         height: 20px;
         position: absolute;
-        top: -18px;
+        top: -20px;
         right: 0;
         object-fit: contain;
     }

@@ -8,7 +8,7 @@
     color: #fff;
     cursor: pointer;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     border: none;
 }
@@ -21,7 +21,7 @@
     .popup__button-submit{
         width: 238px;
         height: 46px;
-        margin-top: 16px;
+        margin-top: 15px;
         font-size: 14px;
         line-height: 17px;
     }

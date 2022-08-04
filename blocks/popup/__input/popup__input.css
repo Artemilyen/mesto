@@ -16,7 +16,6 @@
 
 .popup__input:focus{
     outline: 0;
-    border-bottom: 3px solid skyblue;
 }
 
 @media screen and (max-width: 650px) {

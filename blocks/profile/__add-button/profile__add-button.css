@@ -7,6 +7,9 @@
     box-sizing: border-box;
     padding: 0;
     cursor: pointer;
+    background-image: url(../../../images/plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile__add-button:hover{
@@ -16,6 +19,7 @@
 @media screen and (max-width: 650px) {
     .profile__add-button{
         width: 282px;
-        margin-top: 36px;
+        margin-top: 32px;
+        background-size: 16px;
     }
 }

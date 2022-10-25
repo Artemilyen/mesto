@@ -6,10 +6,13 @@
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  display: none;
+  visibility: hidden;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  opacity: 0;
+  transition: visibility .3s, opacity .5s linear;
 }
